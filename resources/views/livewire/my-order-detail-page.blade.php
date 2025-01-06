@@ -218,14 +218,7 @@
                     <span>Subtotal</span>
                     <span>{{ 'Rp. ' . number_format($item->order->grand_total, 0, ',', '.') }}</span>
                 </div>
-                <div class="flex justify-between mb-2">
-                    <span>Taxes</span>
-                    <span>0</span>
-                </div>
-                <div class="flex justify-between mb-2">
-                    <span>Shipping</span>
-                    <span>0</span>
-                </div>
+
                 <hr class="my-2">
                 <div class="flex justify-between mb-2">
                     <span class="font-semibold">Grand Total</span>

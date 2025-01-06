@@ -67,15 +67,6 @@
                                     <p class="text-base leading-4 text-gray-600 dark:text-gray-400">
                                         {{ 'Rp. ' . number_format($order->grand_total, 0, ',', '.') }}</p>
                                 </div>
-                                <div class="flex items-center justify-between w-full">
-                                    <p class="text-base leading-4 text-gray-800 dark:text-gray-400">Discount
-                                    </p>
-                                    <p class="text-base leading-4 text-gray-600 dark:text-gray-400">00</p>
-                                </div>
-                                <div class="flex items-center justify-between w-full">
-                                    <p class="text-base leading-4 text-gray-800 dark:text-gray-400">Shipping</p>
-                                    <p class="text-base leading-4 text-gray-600 dark:text-gray-400">00</p>
-                                </div>
                             </div>
                             <div class="flex items-center justify-between w-full">
                                 <p class="text-base font-semibold leading-4 text-gray-800 dark:text-gray-400">Total</p>
@@ -104,7 +95,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <p class="text-lg font-semibold leading-6 text-gray-800 dark:text-gray-400">00</p>
+
                             </div>
                         </div>
                     </div>

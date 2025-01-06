@@ -8,7 +8,12 @@ export default {
     ],
     darkMode: "class",
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                lora: ["Lora", "serif"],
+                rubik: ["Rubik Wet Paint", "sans-serif"],
+            },
+        },
     },
     plugins: [require("preline/plugin")],
 };

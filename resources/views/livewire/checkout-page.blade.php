@@ -44,7 +44,7 @@
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="phone">
-                                Phone
+                                No Handphone
                             </label>
                             <input wire:model='phone'
                                 class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('phone') border-red-500 @enderror"
@@ -58,7 +58,7 @@
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="street_address">
-                                Address
+                                Alamat
                             </label>
                             <input wire:model='street_address'
                                 class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('address') border-red-500 @enderror"
@@ -72,7 +72,7 @@
                         </div>
                         <div class="mt-4">
                             <label class="block text-gray-700 dark:text-white mb-1" for="city">
-                                City
+                                Kota
                             </label>
                             <input wire:model='city'
                                 class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('city') border-red-500 @enderror"
@@ -87,7 +87,7 @@
                         <div class="grid grid-cols-2 gap-4 mt-4">
                             <div>
                                 <label class="block text-gray-700 dark:text-white mb-1" for="state">
-                                    State
+                                    Negara
                                 </label>
                                 <input wire:model='state'
                                     class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('state') border-red-500 @enderror"
@@ -101,7 +101,7 @@
                             </div>
                             <div>
                                 <label class="block text-gray-700 dark:text-white mb-1" for="zip">
-                                    ZIP Code
+                                    Kode Pos
                                 </label>
                                 <input wire:model='zip_code'
                                     class="w-full rounded-lg border py-2 px-3 dark:bg-gray-700 dark:text-white dark:border-none @error('zip_code') border-red-500 @enderror"
@@ -178,22 +178,8 @@
                             {{ 'Rp. ' . number_format($grand_total, 0, ',', '.') }}
                         </span>
                     </div>
-                    <div class="flex justify-between mb-2 font-bold">
-                        <span>
-                            Taxes
-                        </span>
-                        <span>
-                            0.00
-                        </span>
-                    </div>
-                    <div class="flex justify-between mb-2 font-bold">
-                        <span>
-                            Shipping Cost
-                        </span>
-                        <span>
-                            0.00
-                        </span>
-                    </div>
+
+
                     <hr class="bg-slate-400 my-4 h-1 rounded">
                     <div class="flex justify-between mb-2 font-bold">
                         <span>
